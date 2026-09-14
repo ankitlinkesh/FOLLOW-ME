@@ -1,4 +1,4 @@
-# AprilTag Pose Bench Test
+# AprilTag Pose Test
 
 Standalone bench test: webcam + printed AprilTag (tag36h11) -> pose estimate
 -> printed movement instructions ("Move 1.2 meters forward", etc). Validates
@@ -25,11 +25,12 @@ venv\Scripts\pip install -r requirements.txt
   [pattern.png](https://github.com/opencv/opencv/blob/4.x/doc/pattern.png).
   Print it flat, no scaling ("fit to page" is fine as long as you measure
   the actual printed square size afterward).
+  or find the image attached as pattern.png
 - **AprilTag**: generate/print a `tag36h11` tag, e.g. from the
   [AprilRobotics tag image repo](https://github.com/AprilRobotics/apriltag-imgs)
   (`tag36h11` folder) or any tag36h11 generator. Mount it flat (glue to
   cardboard/foam board) so it doesn't curl.
-
+  or find the image attached as tag_1.png
 ## 2. Measure and configure
 
 - Measure one **chessboard square's side length** in meters with calipers or
